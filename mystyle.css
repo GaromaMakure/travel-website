@@ -124,3 +124,15 @@ header {
   border-radius: 5px;
   margin-top: 10px;
 }
+.btn:hover {
+  background: hsl(0, 94%, 50%);
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
