@@ -9,6 +9,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- navbar -->
@@ -16,11 +21,32 @@
       <a href="#" class="logo">Travel</a>
       <div class="bx bx-menu" id="menu-icon"></div>
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" class="home-active">Home</a></li>
         <li><a href="#places">Places</a></li>
         <li><a href="#videos">Videos</a></li>
         <li><a href="#About">About</a></li>
       </ul>
     </header>
+    <!-- home -->
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+          <img src="home6.jpg" alt="" />
+        </div>
+        <div class="swiper-slide container">
+          <img src="home3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide container">
+          <img src="home5.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="main.js"></script>
   </body>
 </html>
