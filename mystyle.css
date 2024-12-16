@@ -90,3 +90,9 @@ header {
   object-fit: cover;
   object-position: center;
 }
+.swiper-pagination-bullet {
+  padding: 5px;
+}
+.swiper-pagination-bullet-active {
+  background: var(--bg-color);
+}
