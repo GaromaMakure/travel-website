@@ -94,5 +94,33 @@ header {
   padding: 5px;
 }
 .swiper-pagination-bullet-active {
-  background: var(--bg-color);
+  background: var(--bf-color) !important;
+}
+.home-text {
+  z-index: 100001;
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Adjust the distance from the left edge */
+  transform: translateY(-50%); /* Only center vertically */
+  color: white;
+  text-align: left; /* Align text to the left */
+}
+
+.home-text span {
+  font-size: 1.2rem;
+}
+
+.home-text h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.home-text .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
 }
