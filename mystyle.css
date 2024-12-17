@@ -138,15 +138,11 @@ header {
 }
 .places-container {
   display: grid;
-  grid-template-columns: repeat(
-    3,
-    1fr
-  ); /* Ensures exactly 3 equal-width columns */
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   gap: 1.5rem;
   justify-content: center;
   margin-top: 2rem;
 }
-
 .places-container .box {
   position: relative;
 }
@@ -201,4 +197,37 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+}
+.about-text h1 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+.about-text p {
+  font-size: 0.938rem;
+  text-align: justify;
+  margin: 0.5rem 0 1.7rem;
+}
+.about-text .btn {
+  background: black;
+  color: white;
+  border: none; /* Optional: Remove border */
+  padding: 10px 20px; /* Optional: Add some padding */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.about-text .btn:hover {
+  background: rgb(21, 229, 21); /* Change background to white */
+  color: black; /* Change text color to black */
+  border: 1px solid black; /* Add a border for better contrast */
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.about-img img:hover {
+  transform: scale(1.1);
+  transition: 2s;
 }
