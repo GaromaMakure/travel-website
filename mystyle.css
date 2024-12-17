@@ -136,3 +136,31 @@ header {
   text-transform: capitalize;
   color: var(--text-color);
 }
+.places-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.places-container .box {
+  position: relative;
+}
+.places-img {
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+.place-img img {
+  width: 100%;
+  height: 100%;
+}
+.place-img img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.place-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
