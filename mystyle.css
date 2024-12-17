@@ -138,11 +138,15 @@ header {
 }
 .places-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Ensures exactly 3 equal-width columns */
   gap: 1.5rem;
   justify-content: center;
   margin-top: 2rem;
 }
+
 .places-container .box {
   position: relative;
 }
