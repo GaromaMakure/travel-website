@@ -227,6 +227,10 @@ header {
   height: 100%;
   overflow: hidden;
 }
+.about-img img {
+  height: 100%;
+  width: 100%;
+}
 .about-img img:hover {
   transform: scale(1.1);
   transition: 2s;
