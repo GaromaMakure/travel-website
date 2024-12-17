@@ -164,3 +164,30 @@ header {
   bottom: 1rem;
   left: 1rem;
 }
+.place-text h2 {
+  color: var(--bf-color);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.place-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background: var(--text-color);
+  color: var(--bf-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+.places-container .box:hover .place-icon {
+  background: #01151d;
+}
+.video-container {
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+}
+.video-container video {
+  width: 768px;
+  position: center;
+}
