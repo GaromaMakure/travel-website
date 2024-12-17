@@ -190,8 +190,15 @@ header {
   display: grid;
   place-items: center;
   margin-top: 2rem;
+  justify-content: center;
 }
 .video-container video {
   width: 768px;
-  position: center;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
